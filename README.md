@@ -17,7 +17,6 @@ Buka CMD / Terminal di folder yang sama dengan hbd.py, lalu jalankan:
 
 pip install -r requirements.txt
 
-
 Python akan otomatis mengunduh semua library yang dibutuhkan:
 
 pandas
@@ -31,24 +30,24 @@ colorama
 
 Buka file hbd.py dan sesuaikan bagian CONFIG di atas:
 
-Variabel	Deskripsi
-EXCEL_PATH	Lokasi file Excel berisi data ulang tahun (birthdays.xlsx)
-HBD_MESSAGE_FILE	Lokasi template pesan personal (hbdmessage.txt)
-GROUP_MESSAGE_FILE	Lokasi template pesan grup (messagegroup.txt)
-USER_DATA_DIR	Lokasi penyimpanan sesi login browser
-IMAGE_PATH	Lokasi gambar yang ingin dikirim (opsional, hanya untuk personal)
-SEND_PERSONAL	True untuk kirim pesan ke masing-masing orang
-SEND_TO_GROUP	True untuk kirim pesan ke grup WhatsApp
-GROUP_ID	Kode grup WhatsApp (contoh: CBZnKzdPcW92qBvY6CM64Q)
+Variabel Deskripsi
+EXCEL_PATH Lokasi file Excel berisi data ulang tahun (birthdays.xlsx)
+HBD_MESSAGE_FILE Lokasi template pesan personal (hbdmessage.txt)
+GROUP_MESSAGE_FILE Lokasi template pesan grup (messagegroup.txt)
+USER_DATA_DIR Lokasi penyimpanan sesi login browser
+IMAGE_PATH Lokasi gambar yang ingin dikirim (opsional, hanya untuk personal)
+SEND_PERSONAL True untuk kirim pesan ke masing-masing orang
+SEND_TO_GROUP True untuk kirim pesan ke grup WhatsApp
+GROUP_ID Kode grup WhatsApp (contoh: CBZnKzdPcW92qBvY6CM64Q)
 ![alt text](image.png)
-HEADLESS	True untuk menjalankan browser tanpa tampilan (lihat penjelasan di bawah)
+HEADLESS True untuk menjalankan browser tanpa tampilan (lihat penjelasan di bawah)
 🧠 3. Tentang File Pendukung
 🗓️ birthdays.xlsx
 
 Berisi kolom berikut:
 
-name	nik	birthdate	phone
-John Doe	12345	1990-10-24	628123456789
+name nik birthdate phone
+John Doe 12345 1990-10-24 628123456789
 
 Pastikan format tanggal (birthdate) valid dan kolom lengkap.
 
@@ -69,7 +68,7 @@ Gunakan {names} sebagai placeholder daftar nama.
 
 Contoh:
 
-🎂 Halo semua! Hari ini ulang tahun {names}. 
+🎂 Halo semua! Hari ini ulang tahun {names}.
 Yuk kita ucapkan selamat dan doakan yang terbaik! 🥳
 
 🚀 4. Cara Menjalankan
@@ -77,7 +76,6 @@ Yuk kita ucapkan selamat dan doakan yang terbaik! 🥳
 Buka CMD / Terminal di folder yang sama dengan hbd.py, lalu jalankan:
 
 py .\hbd.py
-
 
 Browser Chrome akan terbuka dan:
 
@@ -92,7 +90,6 @@ Kamu bisa menjalankan script tanpa membuka browser GUI — cocok untuk automatio
 Set di config:
 
 HEADLESS = True
-
 
 ⚠️ Peringatan penting:
 
@@ -109,7 +106,6 @@ Buat file hbd.bat di folder yang sama:
 @echo off
 cd /d "D:\Projects\whatsapp-blast"
 py hbd.py
-
 
 Lalu pasang di Windows Task Scheduler:
 
