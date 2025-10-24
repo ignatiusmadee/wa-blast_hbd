@@ -1,13 +1,8 @@
 ````markdown
 # 🎉 WhatsApp Birthday Notifier by Elvri
 
-[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
-[![Selenium](https://img.shields.io/badge/Selenium-Automation-success.svg)](https://www.selenium.dev/)
-[![Status](https://img.shields.io/badge/Status-Stable-brightgreen.svg)]()
-[![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)]()
-
-Script otomatis untuk mengirim **ucapan ulang tahun** melalui **WhatsApp Web** menggunakan **Python + Selenium**.  
-Mendukung pengiriman **pesan personal**, **pesan grup**, dan **lampiran gambar** 🎂  
+Script otomatis untuk mengirim *ucapan ulang tahun* melalui *WhatsApp Web* menggunakan *Python + Selenium*.  
+Mendukung pengiriman *pesan personal*, *pesan grup*, dan *lampiran gambar* 🎂  
 
 ---
 
@@ -204,4 +199,5 @@ D:\Projects\whatsapp-blast\
 Developed by **Elvri** — automation & planning expert ⚙️
 Forward-thinking script for effortless WhatsApp greetings 🎂
 🚀 Designed for reliability, clarity, and zero manual hassle.
+
 
